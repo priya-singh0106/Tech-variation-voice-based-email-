@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .home {
+            background-image: url(img/Log2.jpg);
+            background-repeat: no-repeat, repeat;
+            background-size: cover;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .home__header {
+            color: white;
+            padding: 10px;
+            box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.12) !important;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 50px;
+        }
+
+        .home__left {
+            width: 240px;
+            display: flex;
+            align-items: center;
+            padding-right: 30px;
+        }
+
+        .home__center {
+            flex-grow: 1;
+            margin-right: 96px;
+            background: rgba(241, 243, 244, 0.21);
+            display: flex;
+            align-items: center;
+            color: white;
+            border-radius: 8px;
+            padding: 10px;
+        }
+
+        .home__center input {
+            /* width: 50%; */
+            height: 25px;
+            border: none;
+            background: none;
+            outline: none;
+            margin-left: 10px;
+            color: white;
+            font-size: 16px;
+        }
+
+        .home__center input::placeholder {
+            font-size: 16px;
+            color: white;
+        }
+
+        .home__right {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: 50px;
+            width: 12%;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="home">
+        <div class="home__header">
+            <div class="home__left">
+                <i class="material-icons" style="cursor: pointer;margin-right: 4px;padding: 12px;">menu</i>
+                Tech Mail
+            </div>
+            <div class="home__center">
+                <span class="material-icons">
+                    search
+                </span>
+                <input type="text" placeholder="Search Mail">
+            </div>
+            <div class="home__right">
+                <div class="home__popover">
+                <span class="material-icons" style="cursor:pointer">
+                    account_circle
+                    </span>
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
